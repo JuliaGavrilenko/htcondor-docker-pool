@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 docker network create \
 	--driver overlay \
 	--subnet 10.0.2.0/24 \
